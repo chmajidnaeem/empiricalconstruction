@@ -72,7 +72,7 @@ export default function CaptionCarousel() {
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
       />
       {/* Left Icon */}
-      <IconButton
+      {/* <IconButton
         aria-label="left-arrow"
         variant=""
         color={'white'}
@@ -83,9 +83,9 @@ export default function CaptionCarousel() {
         zIndex={2}
         onClick={() => slider?.slickPrev()}>
         <BiLeftArrowAlt size="40px" />
-      </IconButton>
+      </IconButton> */}
       {/* Right Icon */}
-      <IconButton
+      {/* <IconButton
         aria-label="right-arrow"
         variant=""
         color={'white'}
@@ -96,7 +96,7 @@ export default function CaptionCarousel() {
         zIndex={2}
         onClick={() => slider?.slickNext()}>
         <BiRightArrowAlt size="40px" />
-      </IconButton>
+      </IconButton> */}
       {/* Slider */}
       <Slider {...settings} ref={(slider) => setSlider(slider)}>
         {cards.map((card, index) => (
@@ -111,7 +111,7 @@ export default function CaptionCarousel() {
             >
             {/* This is the block you need to change, to customize the caption */}
 <div className='flex sm:flex-row flex-col h-full'>
-<Image src={card.image}  alt='image' className='h-1/2 sm:w-full w-4/6 sm:ml-0 ml-4'></Image>
+<Image src={card.image}  alt='image' className='h-1/2 sm:w-full md:w-4/6 w-4/6 sm:ml-0 ml-4'></Image>
 
 <div className=' sm:w-2/6 w-full text-white h-full  px-4 py-8'>
             <h1 className='text-3xl font-bold'>{card.title}</h1>

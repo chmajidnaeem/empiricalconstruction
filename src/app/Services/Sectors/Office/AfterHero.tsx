@@ -28,7 +28,7 @@ Office and building fitting-out services
           <p className="text-sm mt-2 text-white">
           We can help you enhance your building’s common areas, incorporating facilities that the modern worker values, while providing flexibility for tenants who do not have these common areas in their usable area.
           </p>
-          <h1 className=' hover:text-red-700 text-white mt-8'>Learn More  {'>'}</h1>
+          <h1 className=' hover:text-[#C3C32F] text-white mt-8'>Learn More  {'>'}</h1>
         </div>
 
         <div className="flex flex-col w-1/2  mx-12">
@@ -45,7 +45,7 @@ Office and building fitting-out services
           The space you occupy should be welcoming and offer more than just a place to work. We can help you reimagine your office space and deliver a more social, motivating and creative workplace where your people feel – and work – their best, wherever they are.
           </p>
 
-          <h1 className=' hover:text-red-700 text-white mt-8'>Learn More  {'>'}</h1>
+          <h1 className=' hover:text-[#C3C32F] text-white mt-8'>Learn More  {'>'}</h1>
          
         </div>
       </div>

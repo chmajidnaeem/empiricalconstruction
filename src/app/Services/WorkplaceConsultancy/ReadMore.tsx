@@ -134,7 +134,7 @@ export default function CaptionCarousel() {
         <IconButton
           aria-label="left-arrow"
           variant=""
-          _hover={{ color: "red" }}
+          _hover={{ color: "#C3C32F" }}
           color={"white"}
           position="absolute"
           right={40}
@@ -152,7 +152,7 @@ export default function CaptionCarousel() {
         <IconButton
           aria-label="right-arrow"
           variant=""
-          _hover={{ color: "red" }}
+          _hover={{ color: "#C3C32F" }}
           position="absolute"
           right={32}
           top={24}
@@ -222,7 +222,7 @@ export default function CaptionCarousel() {
             textColor={"white"}
             borderWidth={1}
             borderColor="white"
-            _hover={{ borderColor: "red", textColor: "red" }}
+            _hover={{ borderColor: "#C3C32F", textColor: "#C3C32F" }}
           >
             See More
           </Button>

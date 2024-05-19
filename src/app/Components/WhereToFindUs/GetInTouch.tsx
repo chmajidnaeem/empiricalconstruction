@@ -77,7 +77,7 @@ const GetInTouch = () => {
                   countries.find((country) => country.code === e.target.value)
                 )
               }
-              className="block appearance-none  bg-[#020510]  text-white  text-5xl font-extrabold py-2 w-full pr-8 mt-12"
+              className="block appearance-none  bg-black  text-white  text-5xl font-extrabold py-2 w-full pr-8 mt-12"
             >
               {countries.map((country) => (
                 <option key={country.code} value={country.code}>
@@ -109,7 +109,7 @@ const GetInTouch = () => {
                 textColor={"white"}
                 borderWidth={1}
                 borderColor="white"
-                _hover={{ borderColor: "red", textColor: "red" }}
+                _hover={{ borderColor: "#C3C32F", textColor: "#C3C32F" }}
               >
                 Contact Us
               </Button>

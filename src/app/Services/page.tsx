@@ -56,7 +56,7 @@ export default function HeroSection() {
               <br /> and brings your brand to life while being kind to the
               planet.
             </p>
-            <button className="px-8 border-white border text-white py-3 font-bold hover:text-red-700 hover:border-red-700">
+            <button className="px-8 border-white border text-white py-3 font-bold hover:text-[#C3C32F] hover:border-[#C3C32F]">
               Let us talk
             </button>
           </div>
@@ -89,27 +89,27 @@ export default function HeroSection() {
           </p>
           <ul className="text-base sm:text-lg text-left mt-4 text-white grid grid-cols-1 sm:grid-cols-2">
             <li className="flex items-center pt-2">
-              <span className="text-red-500 mr-2">/</span>
+              <span className="text-[#C3C32F] mr-2">/</span>
               <span className="font-bold">Price certainty</span>
             </li>
             <li className="flex items-center pt-2">
-              <span className="text-red-500 mr-2">/</span>
+              <span className="text-[#C3C32F] mr-2">/</span>
               <span className="font-bold">Collaborative approach</span>
             </li>
             <li className="flex items-center pt-2">
-              <span className="text-red-500 mr-2">/</span>
+              <span className="text-[#C3C32F] mr-2">/</span>
               <span className="font-bold">Reduced project timelines*</span>
             </li>
             <li className="flex items-center pt-2">
-              <span className="text-red-500 mr-2">/</span>
+              <span className="text-[#C3C32F] mr-2">/</span>
               <span className="font-bold">Reduced risk</span>
             </li>
             <li className="flex items-center pt-2">
-              <span className="text-red-500 mr-2">/</span>
+              <span className="text-[#C3C32F] mr-2">/</span>
               <span className="font-bold">A seamless process</span>
             </li>
             <li className="flex items-center pt-2">
-              <span className="text-red-500 mr-2">/</span>
+              <span className="text-[#C3C32F] mr-2">/</span>
               <span className="font-bold">Peace of mind</span>
             </li>
           </ul>
@@ -139,28 +139,28 @@ export default function HeroSection() {
             construction, so you benefit from:
           </p>
           <ul className="text-base sm:text-lg text-left mt-4 text-white grid grid-cols-1 sm:grid-cols-2">
-            <li className="flex items-center pt-2">
-              <span className="text-red-500 mr-2">/</span>
+          <li className="flex items-center pt-2">
+              <span className="text-[#C3C32F] mr-2">/</span>
               <span className="font-bold">Price certainty</span>
             </li>
             <li className="flex items-center pt-2">
-              <span className="text-red-500 mr-2">/</span>
+              <span className="text-[#C3C32F] mr-2">/</span>
               <span className="font-bold">Collaborative approach</span>
             </li>
             <li className="flex items-center pt-2">
-              <span className="text-red-500 mr-2">/</span>
+              <span className="text-[#C3C32F] mr-2">/</span>
               <span className="font-bold">Reduced project timelines*</span>
             </li>
             <li className="flex items-center pt-2">
-              <span className="text-red-500 mr-2">/</span>
+              <span className="text-[#C3C32F] mr-2">/</span>
               <span className="font-bold">Reduced risk</span>
             </li>
             <li className="flex items-center pt-2">
-              <span className="text-red-500 mr-2">/</span>
+              <span className="text-[#C3C32F] mr-2">/</span>
               <span className="font-bold">A seamless process</span>
             </li>
             <li className="flex items-center pt-2">
-              <span className="text-red-500 mr-2">/</span>
+              <span className="text-[#C3C32F] mr-2">/</span>
               <span className="font-bold">Peace of mind</span>
             </li>
           </ul>
@@ -216,7 +216,7 @@ export default function HeroSection() {
               textColor={"white"}
               borderWidth={1}
               borderColor="white"
-              _hover={{ borderColor: "red", textColor: "red" }}
+              _hover={{ borderColor: "#C3C32F", textColor: "#C3C32F" }}
               mt={4}
               height={12}
             >
@@ -260,7 +260,7 @@ export default function HeroSection() {
                   textColor={"white"}
                   borderWidth={1}
                   borderColor="white"
-                  _hover={{ borderColor: "red", textColor: "red" }}
+                  _hover={{ borderColor: "#C3C32F", textColor: "#C3C32F" }}
                 >
                   Contact Us
                 </Button>

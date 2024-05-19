@@ -12,7 +12,7 @@ const OurProjects = () => {
   // const [isHovered2, setIsHovered2] = useState(false);
   // const [isHovered3, setIsHovered3] = useState(false);
   return (
-    <div className=" md:px-14 px-5 bg-[#020510]">
+    <div className=" md:px-14 px-5 bg-black">
         <div className=" top-0 left-0 right-0  py-6 flex justify-left  items-center text-white text-xs font-bold pl-">
         <a href="/" className="mx-1 hover:underline">
           Home

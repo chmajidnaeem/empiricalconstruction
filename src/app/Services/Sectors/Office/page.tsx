@@ -73,7 +73,7 @@ your bottom line.
               textColor={"white"}
               borderWidth={1}
               borderColor="white"
-              _hover={{ borderColor: "red", textColor: "red" }}
+              _hover={{ borderColor: "#C3C32F", textColor: "#C3C32F" }}
             >
               Download the Guide
             </Button>
@@ -125,7 +125,7 @@ your bottom line.
               textColor={"white"}
               borderWidth={1}
               borderColor="white"
-              _hover={{ borderColor: "red", textColor: "red" }}
+              _hover={{ borderColor: "#C3C32F", textColor: "#C3C32F" }}
             >
               Learn More
             </Button>
@@ -172,7 +172,7 @@ your bottom line.
               textColor={"white"}
               borderWidth={1}
               borderColor="white"
-              _hover={{ borderColor: "red", textColor: "red" }}
+              _hover={{ borderColor: "#C3C32F", textColor: "#C3C32F" }}
             >
               Get In Touch
             </Button>

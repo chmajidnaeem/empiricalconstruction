@@ -90,7 +90,7 @@ const HeroSection = () => {
                 textColor={"white"}
                 borderWidth={1}
                 borderColor="white"
-                _hover={{ borderColor: "red", textColor: "red" }}
+                _hover={{ borderColor: "#C3C32F", textColor: "#C3C32F" }}
               >
                Contact Us
               </Button>
@@ -205,7 +205,7 @@ at every stage of your fit-out
              
              </div>
         </div>
-        <div className="flex flex-col w-5/6 sm:w-1/2 lg:w-1/2 mt-4 sm:mt-0">
+        <div className="flex flex-col w-5/6 sm:w-1/2 lg:w-1/2 mt-4 sm:mt-0 sm:mr-4 mr-0">
               <img
                 src={images[currentImageIndex]}
                 alt={`Image ${currentImageIndex + 1}`}
@@ -292,7 +292,7 @@ at every stage of your fit-out
                 textColor={"white"}
                 borderWidth={1}
                 borderColor="white"
-                _hover={{ borderColor: "red", textColor: "red" }}
+                _hover={{ borderColor: "#C3C32F", textColor: "#C3C32F" }}
               >
                See More Case Studios
               </Button>
@@ -401,7 +401,7 @@ at every stage of your fit-out
               textColor={"white"}
               borderWidth={1}
               borderColor="white"
-              _hover={{ borderColor: "red", textColor: "red" }}
+              _hover={{ borderColor: "#C3C32F", textColor: "#C3C32F" }}
             >
               Build with us
             </Button>

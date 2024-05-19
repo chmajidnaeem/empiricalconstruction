@@ -9,7 +9,7 @@ const AllProjects = () => {
   const [isHovered1, setIsHovered1] = useState(false);
   const [isHovered2, setIsHovered2] = useState(false);
   return (
-    <div className="bg-[#020510]">
+    <div className="bg-black">
         
     <div className=" md:px-12 px-5  grid md:grid-cols-2 grid-cols-1 gap-12 md:pb-28 pb-10 pt-28 ">
       {/* left side  */}

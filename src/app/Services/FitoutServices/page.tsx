@@ -89,7 +89,7 @@ const HeroSection = () => {
                 textColor={"white"}
                 borderWidth={1}
                 borderColor="white"
-                _hover={{ borderColor: "red", textColor: "red" }}
+                _hover={{ borderColor: "#C3C32F", textColor: "#C3C32F" }}
               >
                Contact Us
               </Button>
@@ -202,12 +202,12 @@ const HeroSection = () => {
              
              </div>
         </div>
-        <div className="flex flex-col w-5/6 sm:w-1/2 lg:w-1/2 mt-4 sm:mt-0">
+        <div className="flex flex-col w-5/6 sm:w-1/2 lg:w-1/2 mt-4 sm:mt-0 sm:mr-4 mr-0">
               <img
                 src={images[currentImageIndex]}
                 alt={`Image ${currentImageIndex + 1}`}
                 className="h-96 w-full object-cover"
-                width={500}
+               
               />
             </div>
       </div>
@@ -252,7 +252,7 @@ const HeroSection = () => {
               textColor={"white"}
               borderWidth={1}
               borderColor="white"
-              _hover={{ borderColor: "red", textColor: "red" }}
+              _hover={{ borderColor: "#C3C32F", textColor: "#C3C32F" }}
             >
               Download
             </Button>
@@ -289,7 +289,7 @@ const HeroSection = () => {
                 textColor={"white"}
                 borderWidth={1}
                 borderColor="white"
-                _hover={{ borderColor: "red", textColor: "red" }}
+                _hover={{ borderColor: "#C3C32F", textColor: "#C3C32F" }}
               >
                See More Case Studios
               </Button>
@@ -388,7 +388,7 @@ const HeroSection = () => {
         
         <div className="flex flex-col items-center justify-center absolute inset-0">
           <h1 className="text-5xl font-bold text-white text-center max-w-3xl">
-            OurOur build services translate your design vision into reality
+            Our build services translate your design vision into reality
           </h1>
           
           <div className="mt-8">
@@ -399,7 +399,7 @@ const HeroSection = () => {
               textColor={"white"}
               borderWidth={1}
               borderColor="white"
-              _hover={{ borderColor: "red", textColor: "red" }}
+              _hover={{ borderColor: "#C3C32F", textColor: "#C3C32F" }}
             >
               Build with us
             </Button>

@@ -11,7 +11,7 @@ const GlobalOfficePr = () => {
   const [isHovered3, setIsHovered3] = useState(false);
 
   return (
-    <div className=" justify-between md:px-16 px-5 bg-[#020510] pb-12 gap-8 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 grid">
+    <div className=" justify-between md:px-16 px-5 bg-black pb-12 gap-8 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 grid">
 
       
       <div

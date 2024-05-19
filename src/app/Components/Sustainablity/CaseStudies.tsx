@@ -36,7 +36,7 @@ const CaseStudies = () => {
               textColor={"white"}
               borderWidth={1}
               borderColor="white"
-              _hover={{ borderColor: "red", textColor: "red" }}
+              _hover={{ borderColor: "#C3C32F", textColor: "#C3C32F" }}
             >
               View All
             </Button>

@@ -110,7 +110,7 @@ Retail Case Studies
       <IconButton
         aria-label="left-arrow"
         variant=""
-        _hover={{ color: 'red' }}
+        _hover={{ color: '#C3C32F' }}
         color={'white'}
         position="absolute"
         right={{ base: 16, md: 20, lg: 40 }}
@@ -124,7 +124,7 @@ Retail Case Studies
       <IconButton
         aria-label="right-arrow"
         variant=""
-        _hover={{ color: 'red' }}
+        _hover={{ color: '#C3C32F' }}
         position="absolute"
        
         right={{ base: 8, md: 12, lg: 32 }}
