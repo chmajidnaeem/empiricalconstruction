@@ -50,7 +50,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="border-gray-200 py-6 bg-black fixed top-0 z-50 w-full ">
+      <nav className="border-gray-200 py-4 bg-black fixed top-0 z-50 w-full ">
         <div className="flex flex-wrap flex-row items-center justify-between max-w-screen-xl sm:px-4 px-4 mx-auto">
           <a href="/" className="flex items-center flex-col">
             {/* <span className="self-center sm:text-5xl text-3xl font-bold whitespace-nowrap text-white">
@@ -397,7 +397,8 @@ const Navbar = () => {
                   </div>
                 </li>
 
-                <li>
+                <li className="
+                pt-4">
                   <div className="dropdown relative">
                     <div
                       tabIndex={0}
@@ -524,7 +525,7 @@ const Navbar = () => {
                         <li>
                           <a
                             className=" hover:text-[#C3C32F]"
-                            href="/Services/Fitoutservices"
+                            href="/Services/FitoutServices"
                           >
                             Fit-out services
                           </a>
@@ -574,7 +575,7 @@ const Navbar = () => {
         </div>
 
         {/* Hamburger Menu Icon */}
-        <div className=" fixed top-4 right-8 z-[102]">
+        <div className=" fixed top-4 right-4 z-[102]">
           <div
             onClick={handleNav}
             className="p-2 md:mr-4 rounded-full lg:hidden bg-black cursor-pointer"

@@ -167,7 +167,7 @@ export default function HeroSection() {
         </div>
       </div>
 
-      <div className="relative flex justify-center items-center h-screen mt-8">
+      <div className="relative flex justify-center items-center h-full w-full py-8 mt-8">
         {/* Background image with blur effect */}
         <div
           className="absolute inset-0 z-0 bg-cover bg-center"
@@ -180,19 +180,19 @@ export default function HeroSection() {
         {/* Content */}
         <div className="relative z-10 flex flex-col md:flex-row lg:flex-row justify-center items-center w-full">
           <div
-            className="flex flex-col items-center mx-4 lg:mx-8 "
-            style={{ width: "50%" }}
+            className="flex flex-col sm:items-center items-start sm:w-1/2 w-5/6 px-4 py-4 lg:mx-4 "
+            // style={{ width: "50%" }}
           >
             <img
               src={images[currentImageIndex]}
               alt={`Image ${currentImageIndex + 1}`}
-              className="h-72 w-96 object-cover"
+              className="h-72 sm:w-96 w-5/6 object-cover"
             />
           </div>
 
           <div
-            className="flex flex-col items-start mx-4 pt-0 pr-12"
-            style={{ width: "50%" }}
+            className="flex flex-col items-start sm:w-1/2 w-5/6 px-4 pt-0 pr-12"
+            // style={{ width: "50%" }}
           >
             <h2 className="text-3xl font-semibold text-white">
               We are fluent in making creative visions a reality.
@@ -226,11 +226,12 @@ export default function HeroSection() {
         </div>
       </div>
 
+
       <Services />
 
       <div>
         <div
-          className="bg-cover bg-center h-96 items-center flex flex-col pt-12 mt-12 pl-12"
+          className="bg-cover bg-center h-96 items-center flex flex-col pt-12 mt-12 px-8"
           style={{
             backgroundImage: `url(${"https://www.tetris-db.com/wp-content/uploads/2022/02/tetrisdb-illus-texture-cta-18.jpg"})`,
           }}

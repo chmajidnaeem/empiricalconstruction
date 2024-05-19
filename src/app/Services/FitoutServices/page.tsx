@@ -28,11 +28,11 @@ const HeroSection = () => {
     <div className=' pt-24 bg-black w-full overflow-hidden'>
     <div className="relative bg-cover bg-center h-96" style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.tetris-db.com/wp-content/uploads/2024/03/tetrisdb-illus-services-build.jpg)' }}>
     <div className="absolute inset-0 z-10 flex flex-col pl-4 sm:pl-12 pt-2">
-          <p className="text-white text-sm font-bold pb-8 sm:pb-16">Home » Services » Fit-out services</p>
+          <p className="text-white sm:text-sm text-xs font-bold pb-8 sm:pb-16">Home » Services » Fit-out services</p>
         
         <Box
           borderRadius={0}
-          width={{ base: "full", sm: "44" }} // Adjust width based on screen size
+          width={{ base:"44" }} // Adjust width based on screen size
           bg={"rgba(0, 0, 0, 0.5)"} // 50% transparency black background
           color={"white"}
           textAlign={"center"}
@@ -131,7 +131,7 @@ const HeroSection = () => {
 </div>
 
 
-<div className="flex justify-between text-white p-4 md:p-24">
+<div className="flex justify-between sm:flex-row flex-col text-white p-4 md:p-24">
       <div className="w-full md:w-1/3 mr-4 md:mr-8">
         <h2 className="text-3xl font-bold">Tailored Workplace <br/> strategy</h2>
         <p className="text-sm mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam viverra mauris id dolor feugiat, eu placerat lacus sollicitudin.</p>

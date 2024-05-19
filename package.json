@@ -27,8 +27,8 @@
     "vercel": "^34.1.14"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
+    "@types/node": "20.12.12",
+    "@types/react": "18.3.2",
     "@types/react-dom": "^18",
     "@types/react-slick": "^0.23.13",
     "daisyui": "^4.10.2",

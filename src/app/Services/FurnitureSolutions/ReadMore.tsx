@@ -1,7 +1,7 @@
 'use client'
 
 import React from 'react'
-
+import { useState, useEffect } from 'react';
 import {
   Box,
   IconButton,
@@ -64,6 +64,36 @@ const settings = {
 export default function CaptionCarousel() {
 
 
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth < 768); // Adjust the breakpoint as per your design
+    };
+    
+    // Initial call to handleResize to set the initial state
+    handleResize();
+    
+    // Event listener for window resize
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup function to remove event listener
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   const slideStyle = {
     marginRight: '20px', // Adjust this value to set the horizontal spacing between slides
   }
@@ -106,8 +136,56 @@ export default function CaptionCarousel() {
 <h2 className="text-xl font-extrabold tracking-tight text-gray-900 sm:text-4xl md:text-2xl dark:text-white pb-16 pl-12">
 Read more about innovative furniture solutions
             </h2>
+
+
+
+            <div className="icons-container">
       {/* Left Icon */}
-      <IconButton
+      {!isSmallScreen && (
+        <IconButton
+          aria-label="left-arrow"
+          variant=""
+          _hover={{ color: "red" }}
+          color={"white"}
+          position="absolute"
+          right={40}
+          top={24}
+          transform={"translate(0%, -50%)"}
+          zIndex={2}
+          onClick={() => slider?.slickPrev()}
+        >
+          <BiLeftArrowAlt size="40px" />
+        </IconButton>
+      )}
+      
+      {/* Right Icon */}
+      {!isSmallScreen && (
+        <IconButton
+          aria-label="right-arrow"
+          variant=""
+          _hover={{ color: "red" }}
+          position="absolute"
+          right={32}
+          top={24}
+          color={"white"}
+          transform={"translate(0%, -50%)"}
+          zIndex={2}
+          onClick={() => slider?.slickNext()}
+        >
+          <BiRightArrowAlt size="40px" />
+        </IconButton>
+      )}
+    </div>
+
+
+
+
+
+
+
+
+      {/* Left Icon */}
+      {/* <IconButton
         aria-label="left-arrow"
         variant=""
         _hover={{ color: 'red' }}
@@ -119,9 +197,9 @@ Read more about innovative furniture solutions
         zIndex={2}
         onClick={() => slider?.slickPrev()}>
         <BiLeftArrowAlt size="40px" />
-      </IconButton>
+      </IconButton> */}
       {/* Right Icon */}
-      <IconButton
+      {/* <IconButton
         aria-label="right-arrow"
         variant=""
         _hover={{ color: 'red' }}
@@ -134,7 +212,7 @@ Read more about innovative furniture solutions
         zIndex={2}
         onClick={() => slider?.slickNext()}>
         <BiRightArrowAlt size="40px" />
-      </IconButton>
+      </IconButton> */}
 
     <Box  position={'relative'} height={'600px'} width={'92%'} mx="auto" overflow={'hidden'} mr={12} ml={12}>
       {/* CSS files for react-slick */}

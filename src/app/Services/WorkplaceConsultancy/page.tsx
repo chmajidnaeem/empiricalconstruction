@@ -33,13 +33,13 @@ const HeroSection = () => {
         }}
       >
         <div className="absolute inset-0 z-10 flex flex-col pl-4 sm:pl-12 pt-2">
-          <p className="text-white text-sm font-bold pb-8 sm:pb-16">
+          <p className="text-white sm:text-sm text-xs font-bold pb-8 sm:pb-16">
             Home » Services » Workplace consultancy
           </p>
 
           <Box
             borderRadius={0}
-            width={{ base: "full", sm: "48" }} // Adjust width based on screen size
+            width={{ base: "48" }} // Adjust width based on screen size
             bg={"rgba(0, 0, 0, 0.5)"} // 50% transparency black background
             color={"white"}
             textAlign={"center"}
@@ -139,7 +139,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div className="flex justify-between text-white p-4 md:p-24">
+      <div className="flex justify-between sm:flex-row flex-col text-white p-4 md:p-24">
         <div className="w-full md:w-1/3 mr-4 md:mr-8">
           <h2 className="text-3xl font-bold">Tailored Workplace strategy</h2>
           <p className="text-sm mt-4">
@@ -173,8 +173,8 @@ const HeroSection = () => {
           }}
         ></div>
         <div className="flex flex-col">
-          <h1 className="flex z-10 pb-12 justify-center sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center text-white items-center">
-            How our workplace and space planning consultants can <br /> help
+          <h1 className="flex z-10 pb-12 justify-center sm:text-4xl md:text-5xl lg:text-6xl px-4 font-bold text-center text-white items-center">
+            How our workplace and space planning consultants can help
           </h1>
 
           {/* Content */}
@@ -325,7 +325,7 @@ const HeroSection = () => {
 
       <Qoutes />
 
-      <div className="mx-8 mt-24">
+      <div className="pb-12">
         <div
           className="bg-cover bg-center h-96 relative"
           style={{
