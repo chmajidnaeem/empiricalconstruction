@@ -10,7 +10,7 @@ A web application built with Next.js, Tailwind CSS, and Clerk for a seamless, mo
 ![Project snip 4](Image4.png)
 ![Project snip 5](Image5.png)
 ![Project snip 5](Image6.png)
-![Project snip 5](Image7.png)
+
 
 ## Prerequisites
 - Node.js and yarn/bun installed
